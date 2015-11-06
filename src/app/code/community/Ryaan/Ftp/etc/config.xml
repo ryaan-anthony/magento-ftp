@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <modules>
+        <Ryaan_Ftp>
+            <version>1.0.0</version>
+        </Ryaan_Ftp>
+    </modules>
+    <global>
+        <helpers>
+            <ftp>
+                <class>Ryaan_Ftp_Helper</class>
+            </ftp>
+        </helpers>
+    </global>
+    <frontend>
+        <translate>
+            <modules>
+                <Ryaan_Ftp>
+                    <files>
+                        <default>Ryaan_Ftp.csv</default>
+                    </files>
+                </Ryaan_Ftp>
+            </modules>
+        </translate>
+    </frontend>
+    <ftp>
+        <connection>
+            <hostname>127.0.0.1</hostname>
+            <username>username</username>
+            <password>password</password>
+            <timeout>10</timeout>
+        </connection>
+    </ftp>
+</config>

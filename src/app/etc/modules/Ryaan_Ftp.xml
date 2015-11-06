@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <modules>
+        <Ryaan_Ftp>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Ryaan_Ftp>
+    </modules>
+</config>
